@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: pink;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+footer .all-footer {
+  justify-content: space-between;
+  align-items: center;
+}
+footer .all-footer .logo {
+  font-size: 20px;
+}
+footer .all-footer {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .all-footer .logo {
+  color: white;
+  padding-bottom: 35px;
+}
+footer .all-footer p {
+  color: white;
+}
+footer .all-footer .follow {
+  display: grid;
+}
+footer .all-footer .follow .box1-icon {
+  border-radius: 50%;
+  background-color: rgb(178, 116, 235);
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer .all-footer .follow .box1-icon i {
+  padding: 7px 7px;
+}
+footer .all-footer .listone {
+  padding: 20px 0px;
+  color: white;
+}
+footer .all-footer .listone strong {
+  font-size: 20px;
+}
+footer .all-footer .listone li {
+  list-style: none;
+  padding: 5px 0px;
+  color: gray;
+}
+footer .all-footer .listtwo {
+  padding-top: 30px;
+  color: white;
+}
+footer .all-footer .listtwo strong {
+  font-size: 20px;
+}
+footer .all-footer .listtwo li {
+  list-style: none;
+  padding: 5px 0px;
+  color: gray;
+}
+footer .all-footer .listthree {
+  padding: 20px 0px;
+  color: white;
+}
+footer .all-footer .listthree strong {
+  font-size: 20px;
+}
+footer .all-footer .listthree li {
+  list-style: none;
+  padding: 5px 0px;
+  color: gray;
+}
+footer .all-footer .follow {
+  padding-bottom: 30px;
+  color: white;
+}
+footer .all-footer .follow strong {
+  font-size: 20px;
+  padding-right: 10px;
+}
+footer .all-footer .follow li {
+  list-style: none;
+  padding: 5px 0px;
+  color: gray;
+}
+
+@media (max-width: 1440px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .follow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

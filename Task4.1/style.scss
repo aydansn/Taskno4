@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: pink;
+    display: grid;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 50px;
+    .all-footer{
+        justify-content: space-between;
+        align-items:center;
+        .logo{
+            font-size:20px;
+        }
+    }
+
+    .all-footer{
+        display: grid;
+        justify-content: space-between;
+        align-items:center;
+        .logo{
+            color: white;
+            padding-bottom: 35px;
+        }
+        p{
+            color:white;
+        }
+        .follow{
+            display: grid;
+            .box1-icon{
+                border-radius: 50%; 
+                background-color:rgb(178, 116, 235);
+                width: 30px;
+                height: 30px;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                i{
+                    padding: 7px 7px;
+                }
+            }
+        }
+        .listone{
+            padding: 20px 0px;
+            color: white;
+            strong{
+                font-size: 20px;
+            }
+            li{
+              list-style: none;
+              padding: 5px 0px;
+              color: gray;
+            }
+        }
+
+        .listtwo{
+            padding-top:30px;
+            color: white;
+            strong{
+                font-size: 20px;
+            }
+            li{
+              list-style: none;
+              padding: 5px 0px;
+              color: gray;
+            }
+        }
+        .listthree{
+            padding: 20px 0px;
+            color: white;
+            strong{
+                font-size: 20px;
+            }
+            li{
+              list-style: none;
+              padding: 5px 0px;
+              color: gray;
+            }
+        }
+        .follow{
+            padding-bottom: 30px;
+            color: white;
+            strong{
+                font-size: 20px;
+                 padding-right: 10px;
+            }
+            li{
+              list-style: none;
+              padding: 5px 0px;
+              color: gray;
+            }
+        }
+     }
+}
+@media(max-width: 1440px){
+    footer{
+        display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .follow{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 800px){
+    footer{
+        display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 500px){
+    footer{
+        display: grid;
+         grid-template-columns: 1fr;
+    }
+}
+
